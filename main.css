@@ -1,0 +1,47 @@
+@import url('reset.css');
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.block div {
+    outline: 1px solid red;
+}
+
+.block-item {
+    float: left;
+    width: 400px;
+}
+
+.block-item-large {
+    width: 800px;
+    float: left;
+}
+
+.some-content {
+    height: 400px;
+    background-color: aqua;
+}
+
+.some-medium {
+    height: 200px;
+    background-color: black;
+}
+
+.some-small {
+    height: 133px;
+    background-color: blue;
+}
+
+.some-xssmall {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
